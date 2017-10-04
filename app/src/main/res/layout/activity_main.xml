@@ -15,7 +15,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/campo_peso"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,7 +25,8 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/campo_estatura"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,12 +36,16 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Calcular"/>
+            android:text="Calcular"
+            android:onClick="CalculaIMC"
+            android:id="@+id/boton_calcular"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Limpiar"/>
+            android:text="Limpiar"
+            android:onClick="Limpiar"
+            android:id="@+id/btnClear"/>
     </LinearLayout>
 
 
@@ -52,5 +58,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/etiqueta_imc"
         android:text="0.0"/>
 </LinearLayout>
