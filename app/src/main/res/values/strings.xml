@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">IMC-APP</string>
+    <string name="texto_etiqueta_peso">Proporcione el peso en Kilogramos: </string>
+    <string name="texto_etiqueta_estatura">Proporcione la estatura en metros:  </string>
+    <string name="boton_Calcular">Calcular </string>
+    <string name="boton_Limpiar">Limpiar </string>
+    <string name="texto_etiqueta_resultado"> El Indice de Masa Corporal (IMC) es </string>
+
+
 </resources>
